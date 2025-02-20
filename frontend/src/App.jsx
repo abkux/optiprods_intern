@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/tasks";
+const API_URL = "https://optiprods-intern.onrender.com/"; // Backend Deployment Link
 
 function App() {
     const [tasks, setTasks] = useState([]);
